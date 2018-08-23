@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ChartdataService } from './chartdata.service';
+import { Chart } from 'chart.js';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-}
+
+  chart = [];
+
+  constructor(private _chartdata:ChartdataService){};
+
+  ngOnInit(){
+      this._chartdata.getChartData().subscribe(res =>{
+        console.log(res);
+      });
+    };
+  };
+
