@@ -15,8 +15,8 @@ export class AppComponent {
   constructor(private _chartdata:ChartdataService){};
 
   ngOnInit(){
-      this._chartdata.getChartData().subscribe(res =>{
-        console.log(res);
+      this._chartdata.getChartData().subscribe(res => {
+       
       });
     };
   };

@@ -8,7 +8,7 @@ export class ChartdataService {
   constructor(private _http:HttpClient) { }
 
   getChartData(){
-    return this._http.get('http://localhost:3000/chtdata/mullinedata').map(result => result);
+    return this._http.get('http://localhost:3000/chtdata/testprojinfo').map(result => result);
   };
 
 }
