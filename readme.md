@@ -1,4 +1,25 @@
-# Angular 5 Reference
+# Angular 5 Development Guide
+
+##  Integrating Angular and Bootstrap
+Follow the below steps to integrate Angular with Bootstrap 4
+ 1. After creating a new Angular application, install the bootstrap, jquery and popper.js using the following piece of code
+	 ```
+	 npm install --save bootstrap jquery popper.js fontawesome
+	```
+ 2. Next add the dependencies into the angular.json(angular-cli.json in case of previous versions of Angular) file in the generated Angular application as shown below
+	 ```
+	 "styles": [
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./node_modules/font-awesome/css/font-awesome.css"
+            ],
+            "scripts": ["./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+	 ```
+ 4. Use any bootstrap 4 code and test the application 
+
 
 ## References
 Use the following **blogs** as reference to practice Angular 5 
@@ -17,7 +38,7 @@ Use the following **blogs** as reference to practice Angular 5
 2. [Application loading animation for Angular](https://medium.com/@tomastrajan/how-to-style-angular-application-loading-with-angular-cli-like-a-boss-cdd4f5358554)
 
 
-### VSCode extensions
+## VSCode extensions for Angular
 1. Bracket Pair Colorizer
 2. Angular 2 TypeScript Emmet
 3. TSLint
