@@ -1,5 +1,10 @@
 # Angular 5 Development Guide
 
+**[Table of Contents]**
+ - [Angular 5 Development Guide](#angular-5-development-guide)
+	 -  [Integrating Angular and Bootstrap](#integrating-angular-and-bootstrap)
+	 - [References](#references)
+
 ##  Integrating Angular and Bootstrap
 Follow the below steps to integrate Angular with Bootstrap 4
  1. After creating a new Angular application, install the bootstrap, jquery and popper.js using the following piece of code
