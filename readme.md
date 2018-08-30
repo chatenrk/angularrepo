@@ -15,3 +15,11 @@ Use the following **blogs** as reference to practice Angular 5
 ### Angular and Bootstrap related
 1. [Building responsive apps using Angular and Bootstrap 4](https://medium.com/@tomastrajan/how-to-build-responsive-layouts-with-bootstrap-4-and-angular-6-cfbb108d797b)
 2. [Application loading animation for Angular](https://medium.com/@tomastrajan/how-to-style-angular-application-loading-with-angular-cli-like-a-boss-cdd4f5358554)
+
+
+### VSCode extensions
+1. Bracket Pair Colorizer
+2. Angular 2 TypeScript Emmet
+3. TSLint
+4. TypeScript Hero
+5. Path Intellisense
